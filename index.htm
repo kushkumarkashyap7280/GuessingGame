@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="fav.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS THE NUMBER - by Kush</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <audio id="soundeffect"  autoplay></audio>
+  <!-- nav bar start -->
+  <nav>
+    <div class="menubarbutton" ><h4>menu</h4><i class="fa-solid fa-bars"></i></div>
+    <video src="loading.mp4" autoplay loop></video>
+    <h1></h1>
+  </nav>
+  
+  <!-- left and right boxes -->
+   <main>
+    <!-- leftbox -->
+    <div class="left">
+      <div class="music l">music
+        <label for="music1">
+          <audio id="audio" src="before.mp3" autoplay loop ></audio>
+          <div id="music1"><i class="fa-solid fa-music"></i>--ON</div>
+        </label>
+        
+        
+      </div>
+      <h1>this game created by Kush kumar</h1>
+        <ol>
+          <h2>Rules of game</h2>
+          <li>computer will choose a no. between 1 to 100 and you have to guess the no.</li>
+          <br>
+          <li> total ten attempts will given to you to guess.</li>
+          <br>
+          <li>don't choose no. less than 1 or greater than 100,otherwise attempts will deducted in this case.</li>
+          <br>
+          <li>enter number only, otherwise attempts will deducted in this case.</li>
+          <br>
+          <li> all the best don\'t see my js code it will declared as cheating if you are a developer<li>
+            <br>
+          <li>please  wait .. till 3 seconds for proper response otherwise your chances would effect.</li>
+          <br>
+        </ol>
+    </div>
+
+    <!-- right box -->
+    <div class="right" >
+      <h1>Guess the Number</h1>
+     <div class="maincontainer">
+      
+      <button class="start"  >Start</button>
+      
+      
+      <img src="gamebg.gif" alt="game icon">
+      <h3>let's play with this amazing game</h3>
+     </div>
+     
+    
+      
+      </div>
+       
+   </main>
+  
+<script src="script.js"></script>
+</body>
+</html>

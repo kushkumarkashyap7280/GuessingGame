@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav{
+  display: flex;
+  justify-content:space-between ;
+  background-color: black;
+ 
+}
+nav i{
+ color: chartreuse;
+}
+nav i{
+  position: relative;
+  left: 0%;
+  font-size: 30px;
+}
+main{
+
+  display: flex;
+  position: fixed;
+}
+.left{
+  height: 100vh;
+  border: 2px black solid;
+  color: white;
+  background-color: rgb(70, 67, 67);
+  min-width: 300px;
+  width:25vw;
+  display: none;
+  position: relative;
+  z-index: 2;
+  left: 0%;
+  
+  
+
+}
+.left ol{
+  text-align: left;
+  color: chartreuse;
+  font-size: larger;
+}
+.l{
+  background-color: rgb(82, 195, 112);
+  color: black;
+  display: grid;
+  align-content: space-between;
+  height: 20%;
+  font-size: 5vh;
+}
+
+#music1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: chartreuse;
+}
+.right{
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: space-around;
+  justify-items: center;
+  background-image: url(rightbg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100vw;
+  color: chartreuse;
+  width: 100vw;
+  font-size: larger;
+  z-index: -2;
+}
+
+.start{
+  z-index: 1;
+  color: black;
+  height: 10vh;
+  width: 20vh;
+  font-size: larger;
+  background-color: chartreuse;
+  border-radius: 20px;
+}
+.start:hover{
+  background-color: rgb(69, 115, 23);
+  color: aliceblue;
+}
+.right li{
+  text-align: left;
+}
+.right ol{
+  overflow: auto;
+  scrollbar-color:chartreuse ;
+  font-size: 25px;
+  padding-left: 40px;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 40vh;
+  box-shadow: 0px 0px 200px 200px black inset;
+}
+
+.oku{
+  z-index: 1;
+  color: black;
+  height: 10vh;
+  width: 20vh;
+  font-size: larger;
+  background-color: chartreuse;
+  border-radius: 20px;
+}
+.oku:hover{
+  background-color: rgb(69, 115, 23);
+  color: aliceblue;
+}
+.enterinput{
+  z-index: 1;
+  color: black;
+  height: 10vh;
+  width: 20vh;
+  font-size: larger;
+  background-color: chartreuse;
+  border-radius: 20px;
+}
+.enterinput:hover{
+  background-color: rgb(69, 115, 23);
+  color: aliceblue;
+}
+#input{
+  z-index: 1;
+  max-width: 400px;
+  color: black;
+  height: 10vh;
+  width: 60vw;
+  font-size: larger;
+  border-radius: 20px;
+}
+.right h1{
+font-size: 40px;
+}
+.maincontainer{
+  
+  z-index: 1;
+  display: grid;
+  justify-items: center;
+  gap: 5px;padding-bottom: 30vh;
+}
+.right img{
+  zoom: 0.8;
+}
+.maincontainer h1{
+  background-color: black;
+  font-size: 5vh;
+}
+.tryagain{
+  z-index: 1;
+  color: black;
+  height: 10vh;
+  width: 20vh;
+  font-size: larger;
+  background-color: chartreuse;
+  border-radius: 20px;
+}
+.output{
+  overflow: auto;
+}
+
